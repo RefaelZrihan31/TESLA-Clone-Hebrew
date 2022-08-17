@@ -1,0 +1,29 @@
+  @font-face {
+    font-family: 'TeslaFontLogo';
+    src: local('TeslaFontLogo'), url(../Fonts/TESLA.ttf) format('woff');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+  @font-face {
+    font-family: 'TeslaFont';
+    src: local('TeslaFont'), url(../Fonts/GothamSSm-Medium_Web.woff2) format('woff');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+  .navbar_links,
+  Link,
+  a {
+    font-family: "TeslaFont";
+    text-decoration: none;
+    color: black;
+  }
+
+  .navbar_menu,
+  .MuiSvgIcon-root {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+
+  }

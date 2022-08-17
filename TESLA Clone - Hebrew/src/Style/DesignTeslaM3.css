@@ -1,0 +1,81 @@
+.container {
+  min-width: 100vw;
+}
+
+img {
+  max-width: 100%;
+}
+
+.space_line {
+  height: 40px;
+}
+
+.block_title_out {
+  display: inline-flex;
+  justify-content: left;
+  padding: 0 0 0 10px;
+  vertical-align: top;
+  width: 92%;
+}
+
+.description_desgin {
+  color: #747474;
+  display: block;
+  font-size: 1em;
+  margin: 8px 0 0;
+}
+
+.block_title_inline {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.block_design {
+  min-height: 80vh;
+  float: left;
+  padding: 30px 15px 0 25px;
+  min-width: 27vw;
+}
+
+.outgoing_msg {
+  overflow: hidden;
+  margin: 26px 0 26px;
+}
+
+.sent_msg {
+  float: right;
+  width: 46%;
+}
+
+
+.car_carousel {
+  min-height: height 100vh;
+}
+
+.inner_block_desgin {
+  height: 880px;
+  overflow-y: auto;
+
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.inner_block_desgin::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.inner_block_desgin {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+
+.btn_img_color_size {
+
+  max-width: 5vw;
+  max-height: 5vh;
+}

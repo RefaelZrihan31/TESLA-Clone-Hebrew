@@ -1,0 +1,19 @@
+.menuItems {
+    border-bottom: 1px solid #696c6f;
+    text-align: center;
+    cursor: pointer;
+    font-family: "TeslaFont";
+
+
+}
+
+.menuItems,
+h4 {
+    font-weight: 500;
+    letter-spacing: .5px;
+    padding-bottom: 5px;
+    padding-top: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}

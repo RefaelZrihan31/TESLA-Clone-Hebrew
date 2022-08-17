@@ -1,0 +1,18 @@
+.containNewsletterBody {
+  /** background image */
+  background-image: url("../Photos/Model_X/MX-Range-Hero-Desktop.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.containNewsletter {
+  min-height: 45vh;
+  max-width: 85vw;
+  display: flex;
+  margin-right: 300px;
+  align-items: flex-end;
+  justify-content: center;
+}
